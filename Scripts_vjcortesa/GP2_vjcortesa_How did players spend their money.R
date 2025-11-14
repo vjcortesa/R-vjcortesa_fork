@@ -374,7 +374,7 @@ plot <- ggplot() +
 #interactive_plot <- ggplotly(plot)
 #htmlwidgets::saveWidget(interactive_plot, "interactive_plot.html")
 #browseURL("interactive_plot.html")
-ggsave("output.png", plot = plot_name, width = 12, height = 6, dpi = 300)
+ggsave(plot_name, width = 12, height = 6, dpi = 300)
 plot(plot)
 
 # Write to Excel with sheet names matching table names
